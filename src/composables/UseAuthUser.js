@@ -1,11 +1,11 @@
 import { ref } from "vue";
 const user = ref(null);
 export default function useAuthUser() {
-  const login = ({ email, password }) => {};
-  const logout = () => {};
-  const register = ({ username, email, password, meta }) => {};
-  const update = (data) => {};
-  const sendPasswordRestEmail = () => {};
+  const login = async ({ email, password }) => {};
+  const logout = async () => {};
+  const register = async ({ username, email, password, meta }) => {};
+  const update = async (data) => {};
+  const sendPasswordRestEmail = async () => {};
   return {
     user,
     login,
